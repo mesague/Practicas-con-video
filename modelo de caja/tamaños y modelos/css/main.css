@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+}
+
+
+.title {
+    margin: 100px 50px 100px 50px;
+
+}
+
+.subtitle {
+    margin-block: 100px; /*hueco que le quiero dejar arriba y abajo*/
+    margin-inline: 50px; /*hueco que le quiero dejar de izquierda a derecha*/
+}
