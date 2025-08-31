@@ -1,0 +1,16 @@
+body {
+    background-color: lightcyan;
+}
+
+.ingredient-list {
+    color: red;
+}
+
+.index {
+    color: blue;
+}
+
+.paragraph {
+    font-size: 32px;
+    font-weight: bold;  
+}
