@@ -1,0 +1,29 @@
+.title{
+  background-color: cadetblue;
+}
+
+.header {
+  height: 400px;
+  border-bottom: solid 3px lightslategrey;
+}
+
+.anchor {
+  display: block;
+  height: 300px;
+  margin-block: 200px; /*Este margen no funciona con los elementos en linea*/
+  margin-inline: 100px; /*Este margen si funciona con los elementos en linea*/
+  padding-inline: 300px; /*Si le hace caso al elemento*/
+  padding-block: 100px; /*No admite, porque es un elemento en linea*/
+}
+
+.img { /*Las imagenes son inline y a la vez son de bloque, se puede añadir a un texto o parrafo, pero se le puede dar alto y ancho*/
+  width: 100px;
+  height: 300px;
+}
+
+.other {
+  color: red;
+}
+.btn {
+  height: 100px;
+}
